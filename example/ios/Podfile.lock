@@ -1,0 +1,36 @@
+PODS:
+  - FBAEMKit (16.0.1):
+    - FBSDKCoreKit_Basics (= 16.0.1)
+  - FBSDKCoreKit (16.0.1):
+    - FBAEMKit (= 16.0.1)
+    - FBSDKCoreKit_Basics (= 16.0.1)
+  - FBSDKCoreKit_Basics (16.0.1)
+  - Flutter (3.0.0)
+  - flutter_facebook_app_links (3.0.0):
+    - FBSDKCoreKit (~> 16.0.1)
+    - Flutter
+
+DEPENDENCIES:
+  - flutter_facebook_app_links (from `.symlinks/plugins/flutter_facebook_app_links/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - Flutter
+
+EXTERNAL SOURCES:
+  flutter_facebook_app_links:
+    :path: ".symlinks/plugins/flutter_facebook_app_links/ios"
+
+SPEC CHECKSUMS:
+  FBAEMKit: daac7466b918752f020345be5c7d9787f98cfc07
+  FBSDKCoreKit: 2cb033464b2134af0138f87d20b859eb3f9be359
+  FBSDKCoreKit_Basics: d37280da2e65872f0e931d15f45d97ea324fec37
+  Flutter: aef388869c2d2beecc8df50c818fa66e9c6eb1fb
+  flutter_facebook_app_links: 3c727946e940402fb59ccc8d853c91236c4a1507
+
+PODFILE CHECKSUM: 07c49106ebecd70162485ee4ec511e267129067e
+
+COCOAPODS: 1.12.0
